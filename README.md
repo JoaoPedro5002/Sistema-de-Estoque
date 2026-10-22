@@ -1,4 +1,4 @@
-# Sistema de Gerenciamento de Estoque (SGE)
+# Sistema de Gerenciamento de Estoque (CLI)
 
 Um sistema simples, robusto e interativo desenvolvido em **Python** para o gerenciamento de estoque direto pelo terminal (CLI). O projeto conta com tratamento de erros de entrada, validação de dados e identificação automática de produtos.
 
@@ -27,3 +27,11 @@ Um sistema simples, robusto e interativo desenvolvido em **Python** para o geren
 
 ```bash
 python Inventory System.py
+
+MENU DO ESTOQUE
+    [1] - Adicionar produto
+    [2] - Ver estoque
+    [3] - Sair
+    [4] - Pesquisar ID
+
+Basta digitar o número correspondente à operação desejada e seguir as instruções na tela. O sistema conta com validações para impedir que letras sejam digitadas onde números são esperados, além de evitar preços ou quantidades menores ou iguais a zero.
